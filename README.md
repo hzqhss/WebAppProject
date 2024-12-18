@@ -1,8 +1,10 @@
 # INFO 3305 Web Application Development Group Project
 
-Group: B
+Group: __B__
 
 Group Members: 
-1. __Aisyah Afiqah binti Zalamin__  __2211826__
+1. __name__  __(matric num)__
 2. __Haziqah binti Sairin__ __(2218818)__
-3. __Nur Athifa Elysha binti Suhaimi__ __2219320__
+3. __name__  __(matric num)__
+4. __name__  __(matric num)__
+5. __name__  __(matric num)__
