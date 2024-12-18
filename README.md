@@ -11,20 +11,20 @@ Group Members:
 
 # Project Title: __TITLE__
 
-## Introduction
+### Introduction
 write intro here
 
-## Objective
+### Objective
 write obj here
 
-## Features and Functionalities
+### Features and Functionalities
 write here
 
-## Entity Relationship Diagram (ERD)
+### Entity Relationship Diagram (ERD)
 upload a pic of diagram here
 
-## Sequence Diagram
+### Sequence Diagram
 upload a pic of diagram here
 
-## References
+### References
 list any reference used in APA style format
