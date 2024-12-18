@@ -1,4 +1,4 @@
-# INFO 3305 Web Application Development Group Project
+# INFO 3305 Web Application Development Group Project Proposal
 
 Group: __B__
 
@@ -8,3 +8,23 @@ Group Members:
 3. __name__  __(matric num)__
 4. __name__  __(matric num)__
 5. __name__  __(matric num)__
+
+# Project Title: __TITLE__
+
+## Introduction
+write intro here
+
+## Objective
+write obj here
+
+## Features and Functionalities
+write here
+
+## Entity Relationship Diagram (ERD)
+upload a pic of diagram here
+
+## Sequence Diagram
+upload a pic of diagram here
+
+## References
+list any reference used in APA style format
