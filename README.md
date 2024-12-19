@@ -26,5 +26,8 @@ upload a pic of diagram here
 ### Sequence Diagram
 upload a pic of diagram here
 
+### Mockup-Link
+put link here
+
 ### References
 list any reference used in APA style format
