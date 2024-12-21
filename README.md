@@ -5,7 +5,7 @@ Group: __B__
 Group Members: 
 1. __name__  __(matric num)__
 2. __Haziqah binti Sairin__ __(2218818)__
-3. __name__  __(matric num)__
+3. __Ahmad Lutfi Bin Ruhaimi__  __(2228329)__
 4. __name__  __(matric num)__
 5. __name__  __(matric num)__
 
