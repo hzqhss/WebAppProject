@@ -21,7 +21,8 @@ write obj here
 write here
 
 ### Entity Relationship Diagram (ERD)
-upload a pic of diagram here
+![ERD WebApp](https://github.com/user-attachments/assets/f069dbe1-ab97-4ec6-95ff-a86497234902)
+
 
 ### Sequence Diagram
 upload a pic of diagram here
