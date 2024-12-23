@@ -68,7 +68,8 @@ The proposed web application will utilize Laravel, a robust PHP framework, to cr
    - Option to integrate secure online payment methods for seamless transactions.
 
 ### Entity Relationship Diagram (ERD)
-![ERD WebApp](https://github.com/user-attachments/assets/f069dbe1-ab97-4ec6-95ff-a86497234902)
+![ERD WebApp (1)](https://github.com/user-attachments/assets/704b0e1f-06b8-48f8-993e-e2d9cdcf0907)
+
 
 
 ### Sequence Diagram
