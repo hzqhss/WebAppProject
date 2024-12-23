@@ -25,10 +25,11 @@ write here
 
 
 ### Sequence Diagram
-upload a pic of diagram here
+![mahallahOrderSeq drawio](https://github.com/user-attachments/assets/d86ac896-9ab7-4525-95f9-f751967fefcb)
 
 ### Mockup-Link
 put link here
 
 ### References
 list any reference used in APA style format
+
