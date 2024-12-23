@@ -17,23 +17,55 @@ In today’s fast-paced university environment, convenience plays a crucial role
 The proposed web application will utilize Laravel, a robust PHP framework, to create a user-friendly and fully functional system. The platform will feature three distinct user portals: one for students and staff to browse menus and place orders, another for Mahallah Cafes to receive and manage these orders, and an admin portal to oversee and manage the entire system. By incorporating real-time order management, dynamic menu displays, and special offers, this application will bridge the gap between Mahallah Cafes and their patrons, ensuring a seamless and enhanced dining experience.
 
 ### Objective
-1. Enhance Accessibility and Convenience:
+1. Enhance Accessibility and Convenience:<br />
    Provide a centralized platform for IIUM students, staff, and nearby individuals to browse Mahallah Cafes' menus and place food orders seamlessly.
 
-2. Improve Operational Efficiency:
+2. Improve Operational Efficiency:<br />
    Empower Mahallah Cafes with a dedicated portal to manage menus, receive orders, and update order statuses effectively, reducing manual efforts.
 
-3. Promote Offers and Discounts:
+3. Promote Offers and Discounts:<br />
    Provide an easy-to-use interface for cafes to showcase special offers and promotions, increasing visibility and engagement.
 
-4. Foster Digital Transformation:
+4. Foster Digital Transformation:<br />
    Introduce a modern, technology-driven solution to enhance the dining experience within the IIUM community while encouraging the adoption of digital systems.
 
-5. Streamline Order Management:
+5. Streamline Order Management:<br />
    Facilitate efficient communication between users and Mahallah Cafes by enabling real-time order placement and management through the web application.
 
 ### Features and Functionalities
-write here
+1. User Registration and Authentication<br />
+   Secure user registration and login system for three distinct roles:
+      - Students/Staff: Place food orders.
+      - Cafes: Manage menus and process orders.
+      - Admin: Oversee and manage the system.<br />
+   Role-based access control to ensure each user type can only access their respective features.
+
+2. Menu Management<br />
+   Dynamic menu display for each Mahallah Cafe, including:
+      - Food items with descriptions, prices, and availability.
+      - Categories for easier browsing (e.g., breakfast, lunch, dinner).<br />
+   Admin and Cafe users can add, edit, or remove menu items.
+
+3. Order Placement and Management<br />
+   Students/Staff:
+      - Place orders directly through the website.
+      - View real-time order status (e.g., pending, in preparation, ready for pickup).<br />
+   Cafes:
+      - Receive and manage orders via their portal.
+      - Update order statuses for tracking purposes.
+
+4. Admin Panel<br />
+   Manage all users (Students/Staff, Cafes, Admins):
+      - Add, edit, or remove accounts.<br />
+      - Oversee menu items across all Mahallah Cafes.<br />
+      - View and analyze order statistics to monitor performance.
+
+5. Responsive and User-Friendly Design
+   - Fully responsive interface for optimal usability on desktops, tablets, and mobile devices.
+   - Intuitive navigation for all user roles.
+
+6. Secure Payment Integration
+   - Option to integrate secure online payment methods for seamless transactions.
 
 ### Entity Relationship Diagram (ERD)
 ![ERD WebApp](https://github.com/user-attachments/assets/f069dbe1-ab97-4ec6-95ff-a86497234902)
