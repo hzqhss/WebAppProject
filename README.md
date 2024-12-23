@@ -12,10 +12,25 @@ Group Members:
 # Project Title: __Mahallah Food Order System__
 
 ### Introduction
-write intro here
+In today’s fast-paced university environment, convenience plays a crucial role in daily activities, including meal planning. Our project focuses on developing a web application tailored specifically for the International Islamic University Malaysia (IIUM) community, enabling students, staff, and nearby individuals to browse menus and place food orders from Mahallah Cafes. This initiative aims to modernize the dining experience by streamlining the process of accessing menus, ordering meals, and managing orders through a single, efficient platform.
+
+The proposed web application will utilize Laravel, a robust PHP framework, to create a user-friendly and fully functional system. The platform will feature three distinct user portals: one for students and staff to browse menus and place orders, another for Mahallah Cafes to receive and manage these orders, and an admin portal to oversee and manage the entire system. By incorporating real-time order management, dynamic menu displays, and special offers, this application will bridge the gap between Mahallah Cafes and their patrons, ensuring a seamless and enhanced dining experience.
 
 ### Objective
-write obj here
+1. Enhance Accessibility and Convenience:
+   Provide a centralized platform for IIUM students, staff, and nearby individuals to browse Mahallah Cafes' menus and place food orders seamlessly.
+
+2. Improve Operational Efficiency:
+   Empower Mahallah Cafes with a dedicated portal to manage menus, receive orders, and update order statuses effectively, reducing manual efforts.
+
+3. Promote Offers and Discounts:
+   Provide an easy-to-use interface for cafes to showcase special offers and promotions, increasing visibility and engagement.
+
+4. Foster Digital Transformation:
+   Introduce a modern, technology-driven solution to enhance the dining experience within the IIUM community while encouraging the adoption of digital systems.
+
+5. Streamline Order Management:
+   Facilitate efficient communication between users and Mahallah Cafes by enabling real-time order placement and management through the web application.
 
 ### Features and Functionalities
 write here
