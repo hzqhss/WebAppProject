@@ -99,13 +99,10 @@ The proposed web application will utilize Laravel, a robust PHP framework, to cr
    ![TRANSACTION PAGE2](https://github.com/user-attachments/assets/9ab91b9d-9a7c-4395-88ca-0743c86089d9)
 
 8. Order Details Page Mockup
-   //put ss here
-   
+   ![Order Detalls Page](https://github.com/user-attachments/assets/91d2eba9-04a8-4854-82dc-1c554ad2f437)
+
 10. User Profile Page
    //put ss here
 
 ### References
 list any reference used in APA style format
-
-
-
