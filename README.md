@@ -80,7 +80,7 @@ put ALL screenshotted pages from figma here
 ### Cart Page Mockup
 ![Cart Page](https://github.com/user-attachments/assets/1faa2911-b196-46c5-88e5-ffe67bec4574)
 ### Transaction Page Mockup
-![payment transaction](https://github.com/user-attachments/assets/aba69288-dbc6-4aab-ad0b-372077f2fde6)
+![Transaction page](https://github.com/user-attachments/assets/2b382f15-be41-4987-bc1b-c4de3ef087de)
 
 ### References
 list any reference used in APA style format
