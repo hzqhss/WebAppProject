@@ -78,7 +78,8 @@ The proposed web application will utilize Laravel, a robust PHP framework, to cr
 ### Mockup Pictures
 
 1. Login Mockup
-   //put ss here
+   ![login](https://github.com/user-attachments/assets/11521a00-38c9-4f59-8f98-fd0800d4b98e)
+
    
 2. Menu Page Mockup i
    ![menu 1](https://github.com/user-attachments/assets/35f5d3f4-ae2c-4b14-800f-54ccec784860)
@@ -102,7 +103,8 @@ The proposed web application will utilize Laravel, a robust PHP framework, to cr
    ![Order Detalls Page](https://github.com/user-attachments/assets/91d2eba9-04a8-4854-82dc-1c554ad2f437)
 
 10. User Profile Page
-   //put ss here
+   ![user profile](https://github.com/user-attachments/assets/a503cc3e-fb24-4f2d-a3be-f9abfab2e019)
+
 
 ### References
 list any reference used in APA style format
