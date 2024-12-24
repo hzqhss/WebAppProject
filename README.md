@@ -79,7 +79,8 @@ The proposed web application will utilize Laravel, a robust PHP framework, to cr
 put ALL screenshotted pages from figma here
 ### Cart Page Mockup
 ![Cart Page](https://github.com/user-attachments/assets/1faa2911-b196-46c5-88e5-ffe67bec4574)
-
+### Transaction Page Mockup
+![payment transaction](https://github.com/user-attachments/assets/aba69288-dbc6-4aab-ad0b-372077f2fde6)
 
 ### References
 list any reference used in APA style format
