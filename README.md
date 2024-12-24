@@ -76,7 +76,7 @@ The proposed web application will utilize Laravel, a robust PHP framework, to cr
 ![mahallahOrderSeq drawio-2](https://github.com/user-attachments/assets/1a0c5f88-1c53-4744-9c58-81461c1c21e9)
 
 ### Mockup-Link
-put link here
+put ALL screenshotted pages from figma here
 
 ### References
 list any reference used in APA style format
