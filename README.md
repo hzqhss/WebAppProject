@@ -78,7 +78,7 @@ The proposed web application will utilize Laravel, a robust PHP framework, to cr
 ### Mockup-Link
 put ALL screenshotted pages from figma here
 ### Cart Page Mockup
-![Cart Page](https://github.com/user-attachments/assets/1faa2911-b196-46c5-88e5-ffe67bec4574)
+![CART PAGE-02](https://github.com/user-attachments/assets/44da5419-70c1-4d16-b336-0ce61e71d549)
 ### Transaction Page Mockup
 ![Transaction page](https://github.com/user-attachments/assets/2b382f15-be41-4987-bc1b-c4de3ef087de)
 
