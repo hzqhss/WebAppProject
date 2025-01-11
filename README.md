@@ -1,7 +1,7 @@
 # INFO 3305 Web Application Development Group Project Proposal
 
 Group: __B__
-
+ 
 Group Members: 
 1. __Nurul Adlina binti Roslan__  __(2219814)__
 2. __Haziqah binti Sairin__ __(2218818)__
