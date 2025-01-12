@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>LoginSSSSSSSSS  TTDDDDDDDTTTTTTT</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -87,7 +87,7 @@
         </header>
         
         <main>
-            <h2>Login</h2>
+            <h2>Login   GGGGGGGG </h2>
             
             @if ($errors->any())
                 <div class="error-message">
