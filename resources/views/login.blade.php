@@ -99,7 +99,7 @@
                 @csrf
                 
                 <div class="form-group">
-                    <label for="email">Email Addresssss</label>
+                    <label for="email">Email AddresssssMMM FFFFF</label>
                     <input type="email" id="email" name="email" placeholder="Type Your Email" required>
                 </div>
                 
