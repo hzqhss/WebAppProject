@@ -11,4 +11,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/menu1', function () {
+    return view('menu1');
+});
+
+
 Route::get('/orders/{id}', [OrderController::class, 'show'])->name('orders.show');
