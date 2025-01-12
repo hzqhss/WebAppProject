@@ -83,7 +83,7 @@
 <body>
     <div class="container">
         <header>
-            <h1>EazyMakannnnnn</h1>
+            <h1>EazyMakan</h1>
         </header>
         
         <main>
@@ -99,7 +99,7 @@
                 @csrf
                 
                 <div class="form-group">
-                    <label for="email">Email Address</label>
+                    <label for="email">Email Addresssss</label>
                     <input type="email" id="email" name="email" placeholder="Type Your Email" required>
                 </div>
                 
