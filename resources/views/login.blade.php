@@ -30,7 +30,7 @@
 
         .image-container {
             flex: 1;
-            background: url('image.png') no-repeat center center / cover;
+            background: url('/assets/img/EazyMakan.png') no-repeat center center / cover;
         }
 
         .form-container {
@@ -180,7 +180,7 @@
 
             <div class="divider">- OR -</div>
 
-            <form method="POST" action="{{ route('register') }}">
+            <form method="POST" action="">
                 @csrf
                 <div class="form-group">
                     <label for="name">Full Name</label>
@@ -194,7 +194,7 @@
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" placeholder="Type Your Password" required>
                 </div>
-                <button type="submit">Create Aount</button>
+                <button type="submit">Log in</button>
             </form>
 
             <div class="bottom-text">
