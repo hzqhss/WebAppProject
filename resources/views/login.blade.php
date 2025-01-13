@@ -30,7 +30,7 @@
 
         .image-container {
             flex: 1;
-            background: url('https://images.unsplash.com/photo-1556911260-986b33b709aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80') no-repeat center center / cover;
+            background: url('image.png') no-repeat center center / cover;
         }
 
         .form-container {
@@ -81,13 +81,6 @@
         input:focus {
             outline: none;
             border-color: #007bff;
-        }
-
-        .error-message p {
-            text-align: left;
-            color: red;
-            font-size: 14px;
-            margin-bottom: 20px;
         }
 
         button {
@@ -146,7 +139,7 @@
             position: absolute;
             top: 50%;
             width: 40%;
-            height: 1px;
+            height: 1px;8
             background: #fff;
         }
 
@@ -178,13 +171,7 @@
         <div class="image-container"></div>
         <div class="form-container">
             <h1>EazyMakan</h1>
-            <h2>Login</h2>
-
-            @if ($errors->any())
-                <div class="error-message">
-                    <p>{{ $errors->first('email') }}</p>
-                </div>
-            @endif
+            <h2>Create Account</h2>
 
             <div class="social-login">
                 <button>Sign up with Google</button>
@@ -193,8 +180,12 @@
 
             <div class="divider">- OR -</div>
 
-            <form method="POST" action="{{ route('login') }}">
+            <form method="POST" action="{{ route('register') }}">
                 @csrf
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Type Your Full Name" required>
+                </div>
                 <div class="form-group">
                     <label for="email">Email Address</label>
                     <input type="email" id="email" name="email" placeholder="Type Your Email" required>
@@ -203,11 +194,11 @@
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" placeholder="Type Your Password" required>
                 </div>
-                <button type="submit">Login</button>
+                <button type="submit">Create Account</button>
             </form>
 
             <div class="bottom-text">
-                <p>Don't have an account? <a href="/register">Sign up</a></p>
+                <p>Already have an account? <a href="/login">Log in</a></p>
             </div>
         </div>
     </div>
