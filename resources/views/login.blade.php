@@ -3,52 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>EazyMakan - Login</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #001F3F;
+            color: #fff;
             display: flex;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
             height: 100vh;
-            background-color: #f4f4f4;
         }
 
-        .container {
+        .main-container {
+            display: flex;
+            width: 90%;
+            max-width: 1200px;
+            height: 600px;
             background: #fff;
             border-radius: 10px;
-            padding: 20px 30px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 400px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
-        h1, h2 {
-            text-align: center;
-            margin-bottom: 20px;
-            color: #333;
+        .image-container {
+            flex: 1;
+            background: url('https://images.unsplash.com/photo-1556911260-986b33b709aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80') no-repeat center center / cover;
         }
 
-        form {
+        .form-container {
+            flex: 1;
+            padding: 40px;
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            background-color: #001F3F;
+            color: #fff;
+        }
+
+        .form-container h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .form-container h2 {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .form-container form {
+            width: 100%;
         }
 
         .form-group {
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
 
         label {
             font-size: 14px;
             font-weight: bold;
-            color: #333;
             margin-bottom: 5px;
             display: block;
         }
 
-        input[type="email"], input[type="password"] {
+        input {
             width: 100%;
             padding: 10px;
             font-size: 14px;
@@ -57,62 +78,138 @@
             box-sizing: border-box;
         }
 
+        input:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+        .error-message p {
+            text-align: left;
+            color: red;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
         button {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
             background-color: #007bff;
             color: white;
-            padding: 10px;
-            font-size: 16px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            margin-top: 10px;
+            transition: background-color 0.3s ease;
         }
 
         button:hover {
             background-color: #0056b3;
         }
 
-        .error-message p {
-            text-align: center;
-            color: red;
+        .social-login {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .social-login button {
+            flex: 1;
+            padding: 10px;
             font-size: 14px;
-            margin-bottom: 15px;
+            margin-right: 10px;
+            background: none;
+            border: 1px solid #fff;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-login button:last-child {
+            margin-right: 0;
+        }
+
+        .social-login button:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .divider {
+            text-align: center;
+            margin: 20px 0;
+            position: relative;
+            color: #fff;
+        }
+
+        .divider::before,
+        .divider::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 40%;
+            height: 1px;
+            background: #fff;
+        }
+
+        .divider::before {
+            left: 0;
+        }
+
+        .divider::after {
+            right: 0;
+        }
+
+        .bottom-text {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .bottom-text a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .bottom-text a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
+    <div class="main-container">
+        <div class="image-container"></div>
+        <div class="form-container">
             <h1>EazyMakan</h1>
-        </header>
-        
-        <main>
             <h2>Login</h2>
-            
+
             @if ($errors->any())
                 <div class="error-message">
                     <p>{{ $errors->first('email') }}</p>
                 </div>
             @endif
-            
+
+            <div class="social-login">
+                <button>Sign up with Google</button>
+                <button>Sign up with Facebook</button>
+            </div>
+
+            <div class="divider">- OR -</div>
+
             <form method="POST" action="{{ route('login') }}">
                 @csrf
-                
                 <div class="form-group">
                     <label for="email">Email Address</label>
                     <input type="email" id="email" name="email" placeholder="Type Your Email" required>
                 </div>
-                
                 <div class="form-group">
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" placeholder="Type Your Password" required>
                 </div>
-                
-                <div class="form-actions">
-                    <button type="submit">Login</button>
-                </div>
+                <button type="submit">Login</button>
             </form>
-        </main>
+
+            <div class="bottom-text">
+                <p>Don't have an account? <a href="/register">Sign up</a></p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
