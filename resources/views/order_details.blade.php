@@ -1,54 +1,31 @@
-@extends('layouts.app')
+@<!DOCTYPE html>
 {{-- MUHAMMAD GHAZI BIN KHAIRI 2229607 --}}
-@section('title', 'Order Details')
-
-@push('styles')
-<style>
-    .order-details {
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    .order-title {
-        font-size: 24px;
-        color: #333;
-        margin-bottom: 15px;
-    }
-
-    .order-items {
-        list-style: none;
-        padding: 0;
-    }
-
-    .order-items .item {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 10px;
-    }
-
-    .total-price {
-        font-weight: bold;
-        margin-top: 20px;
-        color: #007bff;
-    }
-</style>
-@endpush
-
-@section('content')
-<div class="order-details">
-    <h2 class="order-title">Order Details</h2>
-    <ul class="order-items">
-        @foreach ($order->items as $item)
-            <li class="item">
-                <span>{{ $item->name }}</span>
-                <span>x{{ $item->quantity }}</span>
-                <span>RM{{ $item->price }}</span>
-            </li>
-        @endforeach
-    </ul>
-    <p class="total-price">Total: RM{{ $order->total_price }}</p>
-</div>
-@endsection
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <!-- Add Bootstrap or Tailwind CSS for styling -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Order Details</h1>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Order #{{ $order->id }}</h5>
+                <p><strong>Customer Name:</strong> {{ $order->customer_name }}</p>
+                <p><strong>Items Ordered:</strong></p>
+                <ul>
+                    @foreach($order->items as $item)
+                        <li>{{ $item->name }} - {{ $item->quantity }} x RM{{ $item->price }}</li>
+                    @endforeach
+                </ul>
+                <p><strong>Total Price:</strong> RM{{ $order->total_price }}</p>
+                <p><strong>Status:</strong> {{ $order->status }}</p>
+            </div>
+        </div>
+        <a href="/orders" class="btn btn-primary mt-3">Back to Orders</a>
+    </div>
+</body>
+</html>
