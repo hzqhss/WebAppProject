@@ -194,7 +194,7 @@
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" placeholder="Type Your Password" required>
                 </div>
-                <button type="submit">Create Account</button>
+                <button type="submit">Create Aount</button>
             </form>
 
             <div class="bottom-text">
