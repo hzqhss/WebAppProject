@@ -89,6 +89,7 @@ The proposed web application will utilize Laravel, a robust PHP framework, to cr
 
 5. Cart Page Mockup
    ![CART PAGE-02](https://github.com/user-attachments/assets/44da5419-70c1-4d16-b336-0ce61e71d549)
+    <br/>Shows the items in the cart and the total to be paid during checkout
 
 6. Transaction Page Mockup 
    ![TRANSACTION PAGE1](https://github.com/user-attachments/assets/51452b17-71d4-4fee-9fdf-eee8040eb96b)
@@ -98,6 +99,7 @@ The proposed web application will utilize Laravel, a robust PHP framework, to cr
 
 8. Order Details Page Mockup
    ![Order Detalls Page](https://github.com/user-attachments/assets/91d2eba9-04a8-4854-82dc-1c554ad2f437)
+    <br/>Shows the details of the meals ordered and the pickup status
 
 10. User Profile Page
    ![user profile](https://github.com/user-attachments/assets/a503cc3e-fb24-4f2d-a3be-f9abfab2e019)
