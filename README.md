@@ -103,14 +103,15 @@ The proposed web application will utilize Laravel, a robust PHP framework, to cr
    ![user profile](https://github.com/user-attachments/assets/a503cc3e-fb24-4f2d-a3be-f9abfab2e019)
 
 ### Project System
+
+![Screenshot (537)](https://github.com/user-attachments/assets/f56d8876-e8c1-4ea6-b33f-d9f4d1a86a57)
+![image](https://github.com/user-attachments/assets/2bcab4bc-19a6-403e-a8b9-d585615a77c6)
+
 ![Screenshot (543)](https://github.com/user-attachments/assets/27f05862-8c4a-4a78-a570-de68ceba49ca)
 ![Screenshot (542)](https://github.com/user-attachments/assets/bf88ccd3-ee63-42c1-80d3-3bcffd1ae3f7)
 ![Screenshot (541)](https://github.com/user-attachments/assets/eb20ab85-99c9-494a-a123-81f741d3cdc6)
 ![Screenshot (538)](https://github.com/user-attachments/assets/2dab9646-c8e8-4fda-8819-f899239baab3)
 ![image](https://github.com/user-attachments/assets/fff3fcf5-f90f-423d-880c-608c21cd5a99)
-
-![Screenshot (537)](https://github.com/user-attachments/assets/f56d8876-e8c1-4ea6-b33f-d9f4d1a86a57)
-![image](https://github.com/user-attachments/assets/2bcab4bc-19a6-403e-a8b9-d585615a77c6)
 
 ![Screenshot (554)](https://github.com/user-attachments/assets/89191fef-fe65-45a4-bb49-a258c456258b)
 ![Screenshot (550)](https://github.com/user-attachments/assets/e47a1ca3-ad22-4099-8c9b-80881fa8153b)
