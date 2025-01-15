@@ -110,6 +110,8 @@ The proposed web application will utilize Laravel, a robust PHP framework, to cr
 ![image](https://github.com/user-attachments/assets/fff3fcf5-f90f-423d-880c-608c21cd5a99)
 
 ![Screenshot (537)](https://github.com/user-attachments/assets/f56d8876-e8c1-4ea6-b33f-d9f4d1a86a57)
+![image](https://github.com/user-attachments/assets/2bcab4bc-19a6-403e-a8b9-d585615a77c6)
+
 ![Screenshot (554)](https://github.com/user-attachments/assets/89191fef-fe65-45a4-bb49-a258c456258b)
 ![Screenshot (550)](https://github.com/user-attachments/assets/e47a1ca3-ad22-4099-8c9b-80881fa8153b)
 ![Screenshot (545)](https://github.com/user-attachments/assets/2e38b62e-272f-4d37-921d-09bc063db887)
